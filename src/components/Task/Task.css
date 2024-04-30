@@ -1,0 +1,39 @@
+.Task {
+    width: 280px;
+    height: 150px;
+    background: rgb(15, 142, 226);
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.7) 5px 10px 50px ,rgb(0,0,0,0.7) -5px 0px 250px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    background: linear-gradient(to right, rgb(56, 90, 194), rgb(202, 202, 202));
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    overflow: hidden;
+  }
+  
+  .Task:hover {
+    box-shadow: rgb(0,0,0) 5px 10px 50px ,rgb(0,0,0) -5px 0px 250px;
+  }
+  
+  .time-text {
+    font-size: 25px;
+    margin-top: 0px;
+    margin-left: 15px;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  
+  .time-sub-text {
+    font-size: 15px;
+    margin-left: 5px;
+  }
+  
+
+  
+  
+  
+ 
